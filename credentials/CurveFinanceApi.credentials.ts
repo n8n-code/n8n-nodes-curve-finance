@@ -55,7 +55,7 @@ export class CurveFinanceApi implements ICredentialType {
 
 	test: ICredentialTestRequest = {
 			"request": {
-				"baseURL": "={{ $credentials.baseUrl }}",
+				"baseURL": "={{ $credentials.url }}",
 				"url": "/getAllGauges",
 				"method": "GET"
 			}
