@@ -8,7 +8,7 @@ import type {
 export class CurveFinanceApi implements ICredentialType {
 	name = 'N8nDevCurveFinanceApi';
 
-	displayName = 'curve-finance API';
+	displayName = 'Curve Finance API';
 
 	icon: Icon = { light: 'file:../nodes/CurveFinance/curve-finance.svg', dark: 'file:../nodes/CurveFinance/curve-finance.dark.svg' };
 
@@ -22,7 +22,7 @@ export class CurveFinanceApi implements ICredentialType {
 			default: 'https://api.curve.finance/v1',
 			required: true,
 			placeholder: 'https://api.curve.finance/v1',
-			description: 'The base URL of your curve-finance API server',
+			description: 'The base URL of your Curve Finance API server',
 		},
 		{
 			displayName: 'API Key',

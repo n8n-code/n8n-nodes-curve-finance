@@ -61,7 +61,7 @@ export const lendingDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Lending Blockchain Id",
+			"displayName": "Lending Blockchain ID",
 			"name": "lendingBlockchainId",
 			"required": true,
 			"default": "ethereum",
@@ -100,7 +100,7 @@ export const lendingDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Lending Registry Id",
+			"displayName": "Lending Registry ID",
 			"name": "lendingRegistryId",
 			"required": true,
 			"default": "oneway",
@@ -142,7 +142,7 @@ export const lendingDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Lending Blockchain Id",
+			"displayName": "Lending Blockchain ID",
 			"name": "lendingBlockchainId",
 			"required": true,
 			"default": "ethereum",

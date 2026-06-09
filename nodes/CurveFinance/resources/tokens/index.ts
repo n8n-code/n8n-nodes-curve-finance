@@ -49,7 +49,7 @@ export const tokensDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Blockchain Id",
+			"displayName": "Blockchain ID",
 			"name": "blockchainId",
 			"required": true,
 			"default": "ethereum",

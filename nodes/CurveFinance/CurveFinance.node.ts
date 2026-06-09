@@ -9,14 +9,14 @@ import { tokensDescription } from './resources/tokens';
 
 export class CurveFinance implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'curve-finance',
+		displayName: 'Curve Finance',
 		name: 'N8nDevCurveFinance',
 		icon: { light: 'file:./curve-finance.svg', dark: 'file:./curve-finance.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Curve Finance decentralized exchange protocol for stablecoin swaps with low slippage across multiple blockchains',
-		defaults: { name: 'curve-finance' },
+		description: 'Curve Finance decentralized exchange protocol for low-slippage stablecoin swaps across blockchains.',
+		defaults: { name: 'Curve Finance' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

@@ -152,7 +152,7 @@ export const volumesAndApYsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Blockchain Id",
+			"displayName": "Blockchain ID",
 			"name": "blockchainId",
 			"required": true,
 			"default": "ethereum",
@@ -274,7 +274,7 @@ export const volumesAndApYsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Blockchain Id",
+			"displayName": "Blockchain ID",
 			"name": "blockchainId",
 			"required": true,
 			"default": "ethereum",
@@ -396,7 +396,7 @@ export const volumesAndApYsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Blockchain Id",
+			"displayName": "Blockchain ID",
 			"name": "blockchainId",
 			"required": true,
 			"default": "ethereum",
@@ -518,7 +518,7 @@ export const volumesAndApYsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Blockchain Id",
+			"displayName": "Blockchain ID",
 			"name": "blockchainId",
 			"required": true,
 			"default": "bsc",
@@ -607,7 +607,7 @@ export const volumesAndApYsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Blockchain Id",
+			"displayName": "Blockchain ID",
 			"name": "blockchainId",
 			"required": true,
 			"default": "ethereum",
@@ -729,7 +729,7 @@ export const volumesAndApYsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Blockchain Id",
+			"displayName": "Blockchain ID",
 			"name": "blockchainId",
 			"required": true,
 			"default": "ethereum",

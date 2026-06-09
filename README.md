@@ -53,15 +53,77 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Gauges | GET GET Get All Gauges |
-| Volumes And AP Ys | GET GET Get All Gauges, GET GET Get All Pools Volume, GET GET Get Base Apys, GET GET Get Facto Gauges Crv Rewards, GET GET Get Factory AP Ys, GET GET Get Subgraph Data, GET GET Get Volumes, GET GET Get Volumes Ethereum Crvusd Amms |
-| Crv USD | GET GET Get Crv Circ Supply, GET GET Get Crvusd Total Supply, GET GET Get Crvusd Total Supply Number, GET GET Get Scrvusd Total Supply Number, GET GET Get Scrvusd Total Supply Result, GET GET Get Volumes Ethereum Crvusd Amms |
-| Misc | GET GET Get Gas, GET GET Get Platforms, GET GET Get Points Campaigns, GET GET Get Registry Address, GET GET Get Weekly Fees |
-| Pools | GET GET Get Hidden Pools, GET GET Get Pool List, GET GET Get Pools, GET GET Get Pools All, GET GET Get Pools Big, GET GET Get Pools Empty, GET GET Get Pools Small |
-| Lending | GET GET Get Lending Vaults, GET GET Get Lending Vaults All |
-| Tokens | GET GET Get Tokens All |
+<details>
+<summary><b>Gauges</b> (1 operations)</summary>
+
+- Get Get All Gauges
+
+</details>
+
+<details>
+<summary><b>Volumes And AP Ys</b> (8 operations)</summary>
+
+- Get Get All Gauges
+- Get Get All Pools Volume
+- Get Get Base Apys
+- Get Get Facto Gauges Crv Rewards
+- Get Get Factory AP Ys
+- Get Get Subgraph Data
+- Get Get Volumes
+- Get Get Volumes Ethereum Crvusd Amms
+
+</details>
+
+<details>
+<summary><b>Crv USD</b> (6 operations)</summary>
+
+- Get Get Crv Circ Supply
+- Get Get Crvusd Total Supply
+- Get Get Crvusd Total Supply Number
+- Get Get Scrvusd Total Supply Number
+- Get Get Scrvusd Total Supply Result
+- Get Get Volumes Ethereum Crvusd Amms
+
+</details>
+
+<details>
+<summary><b>Misc</b> (5 operations)</summary>
+
+- Get Get Gas
+- Get Get Platforms
+- Get Get Points Campaigns
+- Get Get Registry Address
+- Get Get Weekly Fees
+
+</details>
+
+<details>
+<summary><b>Pools</b> (7 operations)</summary>
+
+- Get Get Hidden Pools
+- Get Get Pool List
+- Get Get Pools
+- Get Get Pools All
+- Get Get Pools Big
+- Get Get Pools Empty
+- Get Get Pools Small
+
+</details>
+
+<details>
+<summary><b>Lending</b> (2 operations)</summary>
+
+- Get Get Lending Vaults
+- Get Get Lending Vaults All
+
+</details>
+
+<details>
+<summary><b>Tokens</b> (1 operations)</summary>
+
+- Get Get Tokens All
+
+</details>
 
 ---
 

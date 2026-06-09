@@ -140,7 +140,7 @@ export const poolsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Blockchain Id",
+			"displayName": "Blockchain ID",
 			"name": "blockchainId",
 			"required": true,
 			"default": "ethereum",
@@ -262,7 +262,7 @@ export const poolsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Blockchain Id",
+			"displayName": "Blockchain ID",
 			"name": "blockchainId",
 			"required": true,
 			"default": "ethereum",
@@ -365,7 +365,7 @@ export const poolsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Registry Id",
+			"displayName": "Registry ID",
 			"name": "registryId",
 			"required": true,
 			"default": "factory",
@@ -439,7 +439,7 @@ export const poolsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Blockchain Id",
+			"displayName": "Blockchain ID",
 			"name": "blockchainId",
 			"required": true,
 			"default": "ethereum",
@@ -561,7 +561,7 @@ export const poolsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Blockchain Id",
+			"displayName": "Blockchain ID",
 			"name": "blockchainId",
 			"required": true,
 			"default": "ethereum",
@@ -683,7 +683,7 @@ export const poolsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Blockchain Id",
+			"displayName": "Blockchain ID",
 			"name": "blockchainId",
 			"required": true,
 			"default": "ethereum",
@@ -805,7 +805,7 @@ export const poolsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Blockchain Id",
+			"displayName": "Blockchain ID",
 			"name": "blockchainId",
 			"required": true,
 			"default": "ethereum",
