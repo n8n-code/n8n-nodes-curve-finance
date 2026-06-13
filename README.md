@@ -13,7 +13,7 @@ Every time you connect n8n to curve-finance, you waste hours mapping endpoints, 
 
 **What if connecting n8n to curve-finance took 5 minutes, not half a day?**
 
-This node gives you **8+ resources** out of the box: **Gauges**, **Volumes And AP Ys**, **Crv USD**, **Deprecated**, **Misc**, and 3 more: with full CRUD operations, typed parameters, and zero manual configuration.
+This node gives you **8+ resources** out of the box: **Gauges**, **Volumes And AP Ys**, **Misc**, **Crv USD**, **Deprecated**, and 3 more: with full CRUD operations, typed parameters, and zero manual configuration.
 
 ---
 
@@ -54,9 +54,10 @@ That's it. No configuration files. No code. It just works.
 ## Resources
 
 <details>
-<summary><b>Gauges</b> (1 operations)</summary>
+<summary><b>Gauges</b> (2 operations)</summary>
 
 - Get Get All Gauges
+- Get Get All Gauges Status
 
 </details>
 
@@ -75,6 +76,18 @@ That's it. No configuration files. No code. It just works.
 </details>
 
 <details>
+<summary><b>Misc</b> (6 operations)</summary>
+
+- Get Get All Gauges Status
+- Get Get Gas
+- Get Get Platforms
+- Get Get Points Campaigns
+- Get Get Registry Address
+- Get Get Weekly Fees
+
+</details>
+
+<details>
 <summary><b>Crv USD</b> (6 operations)</summary>
 
 - Get Get Crv Circ Supply
@@ -83,17 +96,6 @@ That's it. No configuration files. No code. It just works.
 - Get Get Scrvusd Total Supply Number
 - Get Get Scrvusd Total Supply Result
 - Get Get Volumes Ethereum Crvusd Amms
-
-</details>
-
-<details>
-<summary><b>Misc</b> (5 operations)</summary>
-
-- Get Get Gas
-- Get Get Platforms
-- Get Get Points Campaigns
-- Get Get Registry Address
-- Get Get Weekly Fees
 
 </details>
 

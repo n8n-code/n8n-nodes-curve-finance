@@ -104,6 +104,20 @@
         }
       }
     },
+    "/getAllGaugesStatus": {
+      "get": {
+        "tags": [
+          "Gauges",
+          "Misc"
+        ],
+        "description": "Returns per-scope cache status for `getAllGauges`, including stale scopes,\nfailed cold scopes, and scopes missing required curve-prices gauges.\n",
+        "responses": {
+          "200": {
+            "description": null
+          }
+        }
+      }
+    },
     "/getAllPoolsVolume/{blockchainId}": {
       "get": {
         "tags": [

@@ -15,6 +15,18 @@ export const miscDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
+					"name": "GET Get All Gauges Status",
+					"value": "GET Get All Gauges Status",
+					"action": "GET Get All Gauges Status",
+					"description": "Returns per-scope cache status for `getAllGauges`, including stale scopes,\nfailed cold scopes, and scopes missing required curve-prices gauges.\n",
+					"routing": {
+						"request": {
+							"method": "GET",
+							"url": "=/getAllGaugesStatus"
+						}
+					}
+				},
+				{
 					"name": "GET Get Gas",
 					"value": "GET Get Gas",
 					"action": "GET Get Gas",
@@ -76,6 +88,25 @@ export const miscDescription: INodeProperties[] = [
 				}
 			],
 			"default": ""
+		},
+		{
+			"displayName": "GET /getAllGaugesStatus",
+			"name": "operation",
+			"type": "notice",
+			"typeOptions": {
+				"theme": "info"
+			},
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Misc"
+					],
+					"operation": [
+						"GET Get All Gauges Status"
+					]
+				}
+			}
 		},
 		{
 			"displayName": "GET /getGas",

@@ -1,8 +1,8 @@
 import { NodeConnectionTypes, type INodeType, type INodeTypeDescription } from 'n8n-workflow';
 import { gaugesDescription } from './resources/gauges';
 import { volumesAndApYsDescription } from './resources/volumes-and-ap-ys';
-import { crvUsdDescription } from './resources/crv-usd';
 import { miscDescription } from './resources/misc';
+import { crvUsdDescription } from './resources/crv-usd';
 import { poolsDescription } from './resources/pools';
 import { lendingDescription } from './resources/lending';
 import { tokensDescription } from './resources/tokens';
@@ -51,13 +51,13 @@ export class CurveFinance implements INodeType {
 					"description": ""
 				},
 				{
-					"name": "Crv USD",
-					"value": "Crv USD",
+					"name": "Misc",
+					"value": "Misc",
 					"description": ""
 				},
 				{
-					"name": "Misc",
-					"value": "Misc",
+					"name": "Crv USD",
+					"value": "Crv USD",
 					"description": ""
 				},
 				{
@@ -80,8 +80,8 @@ export class CurveFinance implements INodeType {
 		},
 		...gaugesDescription,
 		...volumesAndApYsDescription,
-		...crvUsdDescription,
 		...miscDescription,
+		...crvUsdDescription,
 		...poolsDescription,
 		...lendingDescription,
 		...tokensDescription

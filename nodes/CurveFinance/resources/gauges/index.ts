@@ -25,6 +25,18 @@ export const gaugesDescription: INodeProperties[] = [
 							"url": "=/getAllGauges"
 						}
 					}
+				},
+				{
+					"name": "GET Get All Gauges Status",
+					"value": "GET Get All Gauges Status",
+					"action": "GET Get All Gauges Status",
+					"description": "Returns per-scope cache status for `getAllGauges`, including stale scopes,\nfailed cold scopes, and scopes missing required curve-prices gauges.\n",
+					"routing": {
+						"request": {
+							"method": "GET",
+							"url": "=/getAllGaugesStatus"
+						}
+					}
 				}
 			],
 			"default": ""
@@ -44,6 +56,25 @@ export const gaugesDescription: INodeProperties[] = [
 					],
 					"operation": [
 						"GET Get All Gauges"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "GET /getAllGaugesStatus",
+			"name": "operation",
+			"type": "notice",
+			"typeOptions": {
+				"theme": "info"
+			},
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Gauges"
+					],
+					"operation": [
+						"GET Get All Gauges Status"
 					]
 				}
 			}
