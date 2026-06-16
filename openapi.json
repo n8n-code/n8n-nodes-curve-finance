@@ -358,7 +358,7 @@
         "tags": [
           "Misc"
         ],
-        "description": "Returns Ethereum gas prices (in gwei) (uses Blocknative API)",
+        "description": "Returns Ethereum gas prices (in wei), computed onchain from `eth_feeHistory`",
         "responses": {
           "200": {
             "description": null

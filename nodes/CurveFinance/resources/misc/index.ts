@@ -30,7 +30,7 @@ export const miscDescription: INodeProperties[] = [
 					"name": "GET Get Gas",
 					"value": "GET Get Gas",
 					"action": "GET Get Gas",
-					"description": "Returns Ethereum gas prices (in gwei) (uses Blocknative API)",
+					"description": "Returns Ethereum gas prices (in wei), computed onchain from `eth_feeHistory`",
 					"routing": {
 						"request": {
 							"method": "GET",
