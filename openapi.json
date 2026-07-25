@@ -68,7 +68,8 @@
         "schema": {
           "type": "string",
           "enum": [
-            "oneway"
+            "oneway",
+            "oneway-v2"
           ]
         }
       },

@@ -109,6 +109,10 @@ export const lendingDescription: INodeProperties[] = [
 				{
 					"name": "Oneway",
 					"value": "oneway"
+				},
+				{
+					"name": "Oneway v2",
+					"value": "oneway-v2"
 				}
 			],
 			"displayOptions": {
