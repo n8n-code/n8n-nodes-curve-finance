@@ -18,7 +18,7 @@ export const volumesAndApYsDescription: INodeProperties[] = [
 					"name": "GET Get All Gauges",
 					"value": "GET Get All Gauges",
 					"action": "GET Get All Gauges",
-					"description": "Returns all Curve gauges, on all chains, in all registries. If any Curve pool, anywhere, has a gauge, then it’ll be returned by this endpoint.\nThe only exception are sidechain non-factory gauges, which aren’t indexed by any registry, and have been discontinued for a long time now. On sidechains, only factory gauges exist; on Ethereum, both \"main\" (non-factory) and factory gauges exist.\n",
+					"description": "Returns all Curve gauges, on all chains, in all registries. If any Curve pool, anywhere, has a gauge, then it’ll be returned by this endpoint.\nThe only exception are sidechain non-factory gauges, which aren’t indexed by any registry, and have been discontinued for a long time now. On sidechains, only factory gauges exist; on Ethereum, both \"main\" (non-factory) and factory gauges exist.\nLlamaLend/crvUSD LM callbacks that are in the gauge controller are returned too: they work like gauges for a market’s collateral, and have an `lmCallback` property describing that market.\n",
 					"routing": {
 						"request": {
 							"method": "GET",
